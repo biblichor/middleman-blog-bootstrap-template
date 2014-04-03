@@ -10,6 +10,7 @@
     "tests"
   ],
   "dependencies": {
+    "sass-bootstrap": "~3.0",
     "jquery": "~2.0",
     "modernizr": "~2.6.3",
     "respond": "~1.4.2",
