@@ -5,7 +5,6 @@ html
     meta[http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"]
     title
       = page_title
-    meta[name="description" content="#{page_description}"]
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
     /[if lt IE 9]
       = javascript_include_tag "ie8"
